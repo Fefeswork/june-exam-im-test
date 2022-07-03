@@ -1,0 +1,147 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: url(Background\ Image.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+/* This is for the CSS for the header of my portfolio page*/
+header{
+    margin-top: 20px;
+}
+
+ nav a
+{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    background: rgba(169, 169, 169, 0.618);
+    padding: 10px 30px;
+    border-radius: 500px;
+}
+
+/*The CSS code below is for the body of my page.
+ this is where my work will be*/
+
+ .gamesdcrp{
+     text-align: center;
+    
+     
+ }
+
+ p{
+  font-size: 16px;
+}
+
+ h2{
+    text-align: center;
+    margin-top: 8%;
+ }
+
+.OD a{
+    color: black;
+    background: rgba(169, 169, 169, 0.618);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 16px;
+    font-weight: bold;
+    text-decoration: none;
+  
+}
+
+/* The CSS code below is for the image slider for the screenshots for the visual novel */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.screenshot-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.myScreenshots {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next and prev button" to the right */
+.next {
+  right: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.prev{
+    left:0;
+    border-radius: 5px 0 0 5px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

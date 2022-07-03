@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(Background\ Image.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+/* This is for the CSS for the header of my portfolio page*/
+header{
+    margin-top: 20px;
+}
+
+nav a{
+    background: rgba(169, 169, 169, 0.618);
+}
+
+a
+{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    background: rgba(211, 211, 211, 0.56);
+    padding: 10px 30px;
+    border-radius: 500px;
+}
+
+/*The CSS code below will be for the main secntion of this page */
+
+h1{
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+text-decoration: underline;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    
+    margin-top: 5%;
+    padding: 0px 20px 0px 20px;
+    margin-left: 15%;
+}
+
+/* The CSS code below is for the buttons on the page*/
+button1 {
+    background-image: url(GameBackg.jpg);
+    border: none;
+    color: white;
+    padding: 155px 165px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5%;
+    margin-right: 20%;
+    font-size: 90px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+button2 {
+    background-image: url(Buttonwriting.jpg);
+    border: none;
+    color: white;
+    padding: 155px 165px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-right: 20%;
+    font-size: 90px;
+    cursor: pointer;
+    list-style-type: none;
+}
+

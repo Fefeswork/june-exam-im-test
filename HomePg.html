@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="HomePg.css" />
+    <!--This piece of code is to reference the buger button when screen size changes-->
+    <script
+      src="https://kit.fontawesome.com/58493d5990.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- This line of code is for the burger button when size of screen changes.
+        we ar cheching if it is clicked.-->
+        <input type="checkbox" id="check" />
+        <label for="check" class="burger-button"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <!--The code below is a container for all the hyperlink
+      that will be shown on my homepage-->
+        <ul>
+          <li><a href="AboutPg.html" class="active">About Page</a></li>
+          <li><a href="StyleGuide.html" class="active">Styleguide</a></li>
+          <li><a href="Portfolio2.html" class="active">Portfolio</a></li>
+          <li><a href="BlogPage.html" class="active">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!--Basic description of my website-->
+      <div class="Description">
+        <h1>FEFE MAGABEANE</h1>
+        <p>
+          Welcome to my space. ,<br />This is where you explore what's in Fefe's
+          mind and how she puts it into reality. <br />I hope you enjoy the
+          experience and hope you come back :)
+        </p>
+      </div>
+    </main>
+
+    <!--Displays my contact details at the bottom of the webpage-->
+    <footer>
+      <div class="footer">
+        <p>Email: ofentse.magabeane@gmail.com</p>
+        <p>Conatact: (+27) 847 789 234</p>
+        <p>Discord: Fefeiscool</p>
+        <p>Github: Fefeswork</p>
+        <p></p>
+      </div>
+    </footer>
+  </body>
+</html>

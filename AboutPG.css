@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(Background\ Image.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+/* This is for the CSS for the header of my About page*/
+header{
+    margin-top: 20px;
+}
+
+a
+{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    background: rgba(169, 169, 169, 0.618);
+    padding: 10px 30px;
+    border-radius: 500px;
+}
+
+/*This is the CSS for the body of my About page*/
+.Picture{
+    image-rendering: optimizeQuality;
+    height: 30%;
+    margin-left: 45%;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 30px;
+    background: rgba(169, 169, 169, 0.618);
+border-radius: 20px;
+}
